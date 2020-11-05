@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Manette</title>
+  </head>
+
+  <style>
+    body {
+        background-color: #A0522D;
+        font-family: sans-serif;
+    }
+
+    h1{
+      color:black;
+      margin-left: 770px;
+    }
+
+  .touslesboutonscate{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(75px, auto);
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+
+  .avantdroit {
+    grid-column:  1 / 3;
+    grid-row: 1 / 3;
+  }
+
+  .avant {
+    grid-column:  2 / 3;
+    grid-row: 1 / 3;
+  }
+
+  .avantgauche {
+    grid-column:  3 / 3;
+    grid-row: 1 / 3;
+  }
+
+  .gauche {
+    grid-column:  1 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .stop {
+    grid-column:  2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .droite {
+    grid-column:  3 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .arriere {
+    grid-column:  2 / 3;
+    grid-row: 3 / 3;
+  }
+
+  .arrieregauche {
+    grid-column:  1 / 3;
+    grid-row: 3 / 3;
+  }
+
+  .arrieredroit {
+    grid-column:  3 / 3;
+    grid-row: 3 / 3;
+  }
+    
+
+
+  </style>
+  <body>
+    <h1>Manette Arduino</h1>
+
+    <div class="touslesboutonscate">
+          <!-- Boutou Arret D'urgenge -->
+          <div class="stop">
+              <a href="">
+              <input class="Catégorie"
+              type="button"
+              style="BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/stop.PNG); width: 250px; height: 250px; "
+              value="">
+              </a>
+              
+          </div>	
+
+          <!-- Bouton Marche avant -->
+          <div class="avant">
+              <a href="">
+              <input class="Catégorie"
+              type="button"
+              style="BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/whiskyavant.png); width: 250px; height: 250px; "
+              value="">
+              </a>
+              
+          </div>	
+
+          <!-- Bouton Marche arriere -->
+          <div class="arriere">
+              <a href="">
+              <input class="Catégorie"
+              type="button"
+              style="BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/whiskyarriere.png); width: 250px; height: 250px; "
+              value="">
+              </a>    
+          </div>	
+
+          <!-- Bouton Touner a gauche -->
+          <div class="gauche">
+              <a href="">
+              <input class="Catégorie"
+              style="BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/whiskygauche.png); width: 250px; height: 250px; "
+              type="button"
+              value="">
+              </a>
+              
+          </div>	
+
+          <!-- Bouton Touner a droite -->
+          <div class="droite">
+              <a href="">
+              <input class="Catégorie"
+              type="button"
+              style="BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/whiskydroit.png); width: 250px; height: 250px; "
+              value="">
+              </a>
+          </div>
+
+          <!-- Bouton Avant Droit -->
+          <div class="avantdroite">
+            <a href="">
+            <input class="Catégorie"
+            type="button"
+            style= "BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/whiskyavantgauche.png); width: 250px; height: 250px; "
+            value="">
+            </a>
+          </div>	
+
+          <!-- Bouton Avant Gauche -->
+          <div class="avantgauche">
+            <a href="">
+            <input class="Catégorie"
+            type=""
+            style="BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/whiskyavantdroit.png); width: 250px; height: 250px; "
+            value="">
+            </a>
+          </div>	
+
+          <!-- Bouton Arriere Gauche -->
+          <div class="arrieregauche">
+            <a href="">
+            <input class="Catégorie"
+            type="button"
+            style="BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/whiskyarrieregauche.png); width: 250px; height: 250px; "
+            value="">
+            </a>
+          </div>	
+
+          <!-- Bouton Arriere Droit -->
+          <div class="arrieredroit">
+            <a href="">
+            <input class="Catégorie"
+            type="button"
+            style="BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/whiskyarrieredroit.png); width: 250px; height: 250px; "
+            value="">
+            </a>
+          </div>	
+
+  </div>	
+
+
+  </body>
+</html>
