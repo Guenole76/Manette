@@ -77,101 +77,160 @@
   <body>
     <h1>Manette Arduino</h1>
 
+    <button  id="2" onClick="left()" class="butt">
+      <i class="fas fa-arrow-circle-left"></i>
+  </button>
+
     <div class="touslesboutonscate">
           <!-- Boutou Arret D'urgenge -->
           <div class="stop">
-              <a href="">
-              <input class="Catégorie"
+              
+              <input class="Catégorie" id="1"  onClick="test()"
               type="button"
               style="BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/stop.PNG); width: 250px; height: 250px; "
               value="">
-              </a>
+              
               
           </div>	
 
           <!-- Bouton Marche avant -->
           <div class="avant">
-              <a href="">
-              <input class="Catégorie"
+              
+              <input class="Catégorie" id="2"  onClick="avant()"
               type="button"
               style="BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/whiskyavant.png); width: 250px; height: 250px; "
               value="">
-              </a>
+              
               
           </div>	
 
           <!-- Bouton Marche arriere -->
           <div class="arriere">
-              <a href="">
-              <input class="Catégorie"
+              
+              <input class="Catégorie" id="3"  onClick="arriere()"
               type="button"
               style="BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/whiskyarriere.png); width: 250px; height: 250px; "
               value="">
-              </a>    
+                
           </div>	
 
           <!-- Bouton Touner a gauche -->
           <div class="gauche">
-              <a href="">
-              <input class="Catégorie"
+              
+              <input class="Catégorie" id="4"  onClick="gauche()"
               style="BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/whiskygauche.png); width: 250px; height: 250px; "
               type="button"
               value="">
-              </a>
+              
               
           </div>	
 
           <!-- Bouton Touner a droite -->
           <div class="droite">
-              <a href="">
-              <input class="Catégorie"
+              
+              <input class="Catégorie" id="5"  onClick="droite()"
               type="button"
               style="BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/whiskydroit.png); width: 250px; height: 250px; "
               value="">
-              </a>
+              
           </div>
 
           <!-- Bouton Avant Droit -->
           <div class="avantdroite">
-            <a href="">
-            <input class="Catégorie"
+            
+            <input class="Catégorie" id="6"  onClick="avantgauche()"
             type="button"
             style= "BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/whiskyavantgauche.png); width: 250px; height: 250px; "
             value="">
-            </a>
+            
           </div>	
 
           <!-- Bouton Avant Gauche -->
           <div class="avantgauche">
-            <a href="">
-            <input class="Catégorie"
+            
+            <input class="Catégorie" id="7"  onClick="avantdroite()"
             type=""
             style="BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/whiskyavantdroit.png); width: 250px; height: 250px; "
             value="">
-            </a>
+            
           </div>	
 
           <!-- Bouton Arriere Gauche -->
           <div class="arrieregauche">
-            <a href="">
-            <input class="Catégorie"
+            
+            <input class="Catégorie" id="8"  onClick="arrieregauche()"
             type="button"
             style="BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/whiskyarrieregauche.png); width: 250px; height: 250px; "
             value="">
-            </a>
+            
           </div>	
 
           <!-- Bouton Arriere Droit -->
-          <div class="arrieredroit">
-            <a href="">
-            <input class="Catégorie"
+          <div class="arrieredroite">
+            
+            <input class="Catégorie" id="9"  onClick="arrieredroite()"
             type="button"
-            style="BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/whiskyarrieredroit.png); width: 250px; height: 250px; "
+             style="BACKGROUND-IMAGE: url(/C:/Users/Guénolé/Documents/GitHub/Manette/whiskyarrieredroit.png); width: 250px; height: 250px; "
             value="">
-            </a>
+            
           </div>	
 
   </div>	
+
+
+
+<script>
+  function test() {
+    document.getElementById("1");
+    console.log("Arret D'urgence ok");
+  }
+
+  function avant() {
+    document.getElementById("2");
+    console.log("Marche Avant ok");
+  }
+
+  function arriere() {
+    document.getElementById("3");
+    console.log("Marche Arriere ok");
+  }
+
+  function gauche() {
+    document.getElementById("4");
+    console.log("Direction Gauche ok");
+  }
+
+  function droite() {
+    document.getElementById("5");
+    console.log("Direction Droite ok");
+  }
+
+  function avantgauche() {
+    document.getElementById("6");
+    console.log("Direction Avant Gauche ok");
+  }
+
+  function avantdroite() {
+    document.getElementById("7");
+    console.log("Direction Avant Droite ok");
+  }
+
+  function arrieregauche() {
+    document.getElementById("8");
+    console.log("Direction Arriere Gauche ok");
+  }
+
+
+
+  function arrieredroite() {
+    document.getElementById("9");
+    console.log("Direction Arriere D ok");
+  }
+
+
+
+
+  </script>
 
 
   </body>
